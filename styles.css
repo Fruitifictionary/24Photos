@@ -33,6 +33,8 @@ body {
 }
 .search button {
   padding: 5px 10px;
+ background-image: url(
+    'https://cdn.discordapp.com/attachments/1396401500560818339/1398218002482069524/image.png?ex=68848f7d&is=68833dfd&hm=5e327e23142c44c10a08916e738c4e2ab1cfb4582d2dc6b2d89d91f86d4e5c38&');
 }
 .user .login-btn {
   background: none;
@@ -177,26 +179,3 @@ form .requirements legend {
   font-size: 0.9em;
 }
 
-<!DOCTYPE html>
-<html>
-
-<head>
-    <style>
-        .image-button {
-             width: 100px;
-             height: 100px;
-             background-image: url(
-    'https://www.canva.com/design/DAGuKF57BTA/EAJopViq3yV7TnwJLxPXpg/edit?utm_content=DAGuKF57BTA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton');
-             background-size: cover;
-             border: none;
-             cursor: pointer;
-          }
-    </style>
-</head>
-
-<body>
-    <button class="image-button" onclick="alert('Button clicked!')">
-    </button>
-</body>
-
-</html>
