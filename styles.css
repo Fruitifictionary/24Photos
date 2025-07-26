@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  font-family: Arial, sans-serif;
+  font-family: roboto, ;
   line-height: 1.5;
   color: #222;
 }
@@ -32,9 +32,13 @@ body {
   width: 492.8px;
 }
 .search button {
-  padding: 5px 10px;
- background-image: url(
-    'https://cdn.discordapp.com/attachments/1396895604357075107/1398218420658638908/AKjmtEeoCeXnAAAAAElFTkSuQmCC.png?ex=68848fe1&is=68833e61&hm=2665f5958159d417869b2e56c6fb29ffc510927a0fd72355eb457162e9eccff1&');
+  width: 14.1px;
+  height: 14.1px;
+  background-image: url 'https://cdn.discordapp.com/attachments/1320753826248130560/1398587469674450954/OIP.png?ex=6885e795&is=68849615&hm=51da8476b049ad8dc5020c7460d4297f5fa181540eee35433014fdc719f74643&'
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
 }
 .user .login-btn {
   background: none;
@@ -43,10 +47,14 @@ body {
   padding: 5px 10px;
   cursor: pointer;
 }
-.profile-icon {
-  font-size: 1.5em;
+.profile-btn {
+   width: 14.1px;
+  height: 14.1px;
+  background-image: url 'https://cdn.discordapp.com/attachments/1320753826248130560/1398588594532126730/OIP.png?ex=6885e8a1&is=68849721&hm=71af87f25bab739b2093c137f6e2bc5eb7c372d96293c4549781277c35e60420&'
+  background-size: cover;
+  background-position: center;
+  border: none;
   cursor: pointer;
-}
 
 main {
   padding: 20px;
