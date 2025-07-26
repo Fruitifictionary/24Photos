@@ -33,7 +33,7 @@ body {
 }
 .search button {
   width: 14.1px;
-  height: 14.1px;
+  height: 30px;
   background-image: url 'https://cdn.discordapp.com/attachments/1320753826248130560/1398587469674450954/OIP.png?ex=6885e795&is=68849615&hm=51da8476b049ad8dc5020c7460d4297f5fa181540eee35433014fdc719f74643&'
   background-size: cover;
   background-position: center;
@@ -44,12 +44,11 @@ body {
   background: none;
   border: 1px solid #fff;
   color: #fff;
-  padding: 5px 10px;
   cursor: pointer;
 }
 .profile-btn {
    width: 14.1px;
-  height: 14.1px;
+  height: 30px;
   background-image: url 'https://cdn.discordapp.com/attachments/1320753826248130560/1398588594532126730/OIP.png?ex=6885e8a1&is=68849721&hm=71af87f25bab739b2093c137f6e2bc5eb7c372d96293c4549781277c35e60420&'
   background-size: cover;
   background-position: center;
@@ -187,7 +186,7 @@ form .requirements legend {
 
 /* Footer */
 .site-footer {
-  text-align: center;
+  text-align: bottom;
   padding: 10px;
   margin-top: 30px;
   font-size: 0.9em;
