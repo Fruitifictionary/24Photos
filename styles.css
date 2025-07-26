@@ -82,6 +82,12 @@ main {
   height: auto;
   background: #ccc;
 }
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+}
 
 /* About */
 .about h1 { font-size: 2em; margin-bottom: 10px; }
