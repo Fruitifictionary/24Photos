@@ -1,52 +1,8 @@
-.search-container {
-  display: flex;
-  align-items: center;
-  background-color: #1a1a1a;
-  border-radius: 20px;
-  padding: 5px 10px;
-  width: fit-content;
-}
-
-.search-input {
-  border: none;
-  background: transparent;
-  color: white;
-  font-size: 14px;
-  padding: 8px;
-  outline: none;
-  width: 300px;
-}
-
-.search-button {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 5px;
-}
-
-.search-icon {
-  width: 18px;
-  height: 18px;
-  object-fit: contain;
-}
-.search-input::placeholder {
-  color: #ccc;
-}
-
-body {
-  margin: 0;
-  background-color: #1a1a1a; /* dark background like your search bar */
-}
-
-header {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  z-index: 1000;
-}
-
-.logo {
-  width: 40px; /* adjust as needed */
-  height: auto;
-  object-fit: contain;
-}
+.top-bar {
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  z-index: 999; 
