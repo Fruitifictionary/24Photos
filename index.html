@@ -6,7 +6,55 @@
 
  <header>
          <a href="https://fruitifictionary.github.io/24Photos//"> 
-            <img src="https://cdn.discordapp.com/attachments/1396895604357075107/1398219260064432262/image.png?ex=6885e229&is=688490a9&hm=1f2f8bb7898a1f7e46fcd5f586cfbdd58b2d04f9770335a170b826b565cefb3c&" alt="24Photos Logo" class="24Photos-Logo">
+            <img src="https://cdn.discordapp.com/attachments/1320753826248130560/1398604282629984326/image.png?ex=6885f73d&is=6884a5bd&hm=783cbead5304e44a882a1c4f3501e0a705842723b5c3bec953fcce651b3c2364&&" alt="24Photos Logo" class="24Photos-Logo">
          </a>
 
+  #   HomeScreen
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airline Image Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto auto;
+      gap: 10px;
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .gallery img.large {
+      grid-column: span 2;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="gallery">
+    <img src="https://media.discordapp.net/attachments/1320753826248130560/1398572464677716030/image.png?ex=6885d99b&is=6884881b&hm=3e04e9b110007629c3d87c7285831c41d0e383594cf2a9ffc92a7197adce969b&=&format=webp&quality=lossless" alt="Image One">
+    <img src="https://cdn.discordapp.com/attachments/1320753826248130560/1398572260725489785/image.png?ex=6885d96b&is=688487eb&hm=221035a4d584e54dc5b0843fa966880d072ebb0001dbc613081005c729405532&" alt="Image 2">
+    <img src="https://cdn.discordapp.com/attachments/1320753826248130560/1398572107419484261/image.png?ex=6885d946&is=688487c6&hm=9e528c7cbad4c9d03b16a0a5bfd414477b8d8181b7e913d2e2136c6756ab2f2c&" alt="Image 3">
+    <img src="https://cdn.discordapp.com/attachments/1320753826248130560/1398571875721805904/image.png?ex=6885d90f&is=6884878f&hm=955cd9343b5150769772b21ad1ac25494c17b8b2ba00a40937e433b018bdf0e8&" alt="Image 4" class="large">
+  </div>
+
+</body>
+</html>
        
